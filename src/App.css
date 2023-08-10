@@ -1,0 +1,144 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: rgb(248,249,250);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 7%;
+  background-color: white;
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+
+img.navbar-logo {
+  width: 120px;
+  margin-right: 300px;
+}
+
+
+
+.navbar .navbar-nav a {
+  color: #000000;
+  display: inline-block;
+  font-size: 1, 3rem;
+  margin: 0 2rem;
+  text-decoration: none;
+  
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+.firstContent {
+  padding-top: 65px;
+}
+
+.g-esports{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.suka-suka {
+  color: white;
+  font-size: xx-large;
+  font-family: arial;
+  margin-top: 500px;
+  font-size: 50px;
+  margin-left: 550px;
+  font-weight: 700;
+}
+
+.suka{
+  margin-top: 65px;
+  font-size: 30px;
+  color: white;
+  margin-left: 100px;
+}
+
+.content-body{
+  margin-top: 900px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.card-container {
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  background-color: rgb(255,255,255);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  margin-left: 110px;
+  color: red;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.logos{
+  width: 150px;
+  margin-left: 80px;
+}
+
+.konten{
+  
+  
+  background-color: rgb(255,255,255);
+  height: 200px;
+ 
+ 
+ 
+}
+
+.konten1{
+  width: 150px;
+}
+
+.footer{
+  display: flex;
+  float: right;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.footer2{
+  display: flex;
+  float: right;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 500px;
+  float: right 600px; 
+}
+
+
+
+
